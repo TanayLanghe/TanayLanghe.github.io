@@ -16,6 +16,7 @@ export default function IndexPage (){
                     <th scope="col">
                     <button onClick={ function() {window.location.href= "/#/signup2"}} type="button" class="btn btn-primary">Signup 2</button>
                     </th>
+                    
                     </tr>
                 </thead>
             </table>
