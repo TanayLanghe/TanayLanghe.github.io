@@ -24,7 +24,7 @@ export default function signup2() {
             <div className="form-group">
             <label>Password</label>
             <input type="password" className="w-25 form-control" id="Password"  placeholder="Password" /> 
-            <small id="passwordHelp" className="form-text text-muted">Your password must be 10 characters long.</small>
+            <small id="passwordHelp" className="form-text text-muted">Your password must contain a capital letter and number, that is not at the begining or end (ie. XXAX7XX 7 and A within)</small>
             </div>
             <br />
             <button type="button" className="btn btn-outline-primary">Sign Up</button>
