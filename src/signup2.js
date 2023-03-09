@@ -86,7 +86,7 @@ export default function Signup2() {
             <div className="form-group">
             <label>Password</label>
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" className="w-25 form-control" id="Password"  placeholder="Password" /> 
-            <small id="passwordHelp" className="form-text text-muted">Your password must contain a capital letter and number, that is not at the begining or end (ie. XXAX7XX 7 and A within)</small>
+            <small id="passwordHelp" className="form-text text-muted">Your password must contain a capital letter and number, that is not at the begining or end (ie. XXAX7XX 7 and A within).</small>
             </div>
             <br />
             <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>

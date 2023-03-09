@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from "react";
-import database from './firebase';
+import database from './firebase.js';
 /*
-This Signup code contains only character minimum as password policy
+This Signup code contains only capital letter and number, not at the begining or end
 */
 
 const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -16,7 +16,7 @@ function generateString(length) {
     return result;
 }
 
-export default function Signup1() {
+export default function Signup5() {
 
     var user = generateString(20);
     
@@ -25,7 +25,7 @@ export default function Signup1() {
 
     const onSubmit = data => {
         if (checkIfValid(data.password) === true){
-            database.ref('Website1/'+user).set({
+            database.ref('Website5/'+user).set({
                 username : username,
                 password : password,
                 
@@ -86,7 +86,7 @@ export default function Signup1() {
             <div className="form-group">
             <label>Password</label>
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" className="w-25 form-control" id="Password"  placeholder="Password" /> 
-            <small id="passwordHelp" className="form-text text-muted">Your password must be 10 or more characters long.</small>
+            <small id="passwordHelp" className="form-text text-muted"> Password must contain 3 or more linked words (ie. ElectricHorseAnchor or catdogeat ect.)</small>
             </div>
             <br />
             <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
