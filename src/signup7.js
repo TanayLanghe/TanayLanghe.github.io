@@ -16,7 +16,7 @@ function generateString(length) {
     return result;
 }
 
-export default function Signup2() {
+export default function Signup7() {
 
     var user = generateString(20);
     
@@ -25,7 +25,7 @@ export default function Signup2() {
 
     const onSubmit = data => {
         if (checkIfValid(data.password) === true){
-            database.ref('Website2/'+user).set({
+            database.ref('Website7/'+user).set({
                 username : username,
                 password : password,
                 
