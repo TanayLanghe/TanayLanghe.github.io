@@ -89,7 +89,7 @@ export default function Signup2() {
             <small id="passwordHelp" className="form-text text-muted">Your password must contain a capital letter and number, that is not at the begining or end (ie. XXAX7XX 7 and A within).</small>
             </div>
             <br />
-            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
+            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Login</button>
         </form></center>
     </body>
     )

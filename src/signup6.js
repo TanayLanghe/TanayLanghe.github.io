@@ -89,7 +89,7 @@ export default function Signup6() {
             <small id="passwordHelp" className="form-text text-muted">Try not to use common words or phrases, include non-english letters if possible.</small>
             </div>
             <br />
-            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
+            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Login</button>
         </form></center>
     </body>
     )

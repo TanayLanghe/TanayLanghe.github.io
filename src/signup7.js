@@ -89,7 +89,7 @@ export default function Signup7() {
             <small id="passwordHelp" className="form-text text-muted"> Password must contain 3 or more linked words, try to associate them with Trinity College School. </small>
             </div>
             <br />
-            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
+            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Login</button>
         </form></center>
     </body>
     )

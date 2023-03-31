@@ -89,7 +89,7 @@ export default function Signup5() {
             <small id="passwordHelp" className="form-text text-muted"> Password must contain 3 or more linked words (ie. ElectricHorseAnchor or catdogeat ect.)</small>
             </div>
             <br />
-            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
+            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Login</button>
         </form></center>
     </body>
     )

@@ -89,7 +89,7 @@ export default function Signup3() {
             <small id="passwordHelp" className="form-text text-muted">Your password must be 8 or more characters long.</small>
             </div>
             <br />
-            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Sign Up</button>
+            <button onClick={onSubmit} type="button" className="btn btn-outline-primary">Login</button>
         </form></center>
     </body>
     )
